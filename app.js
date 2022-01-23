@@ -4,7 +4,7 @@ var API = require('./index');
 
 var BSEAPI = API.BSE;
 var NSEAPI = API.NSE;
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 var app = express();
 
